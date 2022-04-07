@@ -82,6 +82,10 @@ export default {
           text: "Traffic Sources Bar Chart",
           left: "center",
         },
+        tooltip: {
+          trigger: "item",
+          formatter: "{a} <br/>{b} : {c} ",
+        },
         xAxis: {
           data: [
             "Direct",
